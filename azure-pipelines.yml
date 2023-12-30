@@ -1,17 +1,3 @@
 name: My GitHub Actions Workflow
-
-on:
-  push:
-    branches:
-      - main
-
-jobs:
-  my_job:
-    runs-on: ubuntu-latest
-
-    steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
-
-    - name: Run a script
-      run: echo "Hello, world!"
+steps:
+- script: echo hello world
